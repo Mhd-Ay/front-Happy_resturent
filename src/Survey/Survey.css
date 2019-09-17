@@ -1,0 +1,166 @@
+body{
+  background-color: #E8ECF8;
+  margin: 0px; 
+}
+.Survey {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 22px;
+  width: 80%;
+  float: right; 
+}
+.Questions{
+  text-align: center;
+  color: #1E1E1E;
+}
+.ul{
+  list-style-type: none;
+}
+ h4{
+  color: #2E3353;
+  font-weight: bold;
+}
+
+/* Add and delete questions*/
+.main-hr {
+  border: none;
+  padding-right: 1000px;
+}
+/* Arabic button*/
+.icon-btn-arabic{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+  color: #383f50;
+  position: fixed;
+  left: 1%;
+  top:35%
+}
+.icon-btn-arabic::before,
+.icon-btn-arabic::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: #2E3353;
+}
+.icon-btn-arabic::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.icon-btn-arabic::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+/* End Arabic button*/
+
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+  color: #383f50;
+  position: fixed;
+  left: 94%;
+  top: 46%;
+}
+
+
+.icon-btn::before,
+.icon-btn::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: #2E3353;
+}
+.icon-btn::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.icon-btn::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.icon-btn:focus {
+  outline: none;
+}
+.btn-txt {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+.add-icon::after,
+.add-icon::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  top: calc(50% - 10px);
+  background: #2E3353;
+  overflow: hidden;
+}
+.add-icon::before {
+  left: 22px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.add-icon::after {
+  right: 22px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn:hover .add-icon::before {
+  left: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+.add-btn:hover .add-icon::after {
+  right: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+.title{
+  margin: 2rem;
+  color: #3e84c1;
+}
+.save-button{
+ margin-bottom: 20px;
+ float: left;
+ margin-left: 25px;
+  
+}
+.error{
+  text-align: center;
+  margin-top: 20%;
+}
+.error a{
+  text-decoration: none;
+}

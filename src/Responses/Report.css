@@ -1,0 +1,14 @@
+.report{
+   position: absolute;
+   top: 14%;
+   left: 3%;
+}
+.btn-lg{
+    position: fixed;
+    left: 20%;
+}
+.report-item{
+    color: #2E3353;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 8px;
+}
